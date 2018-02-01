@@ -4,7 +4,7 @@ import seaborn as sns
 #%matplotlib inline
 plt.rcParams['figure.figsize'] = 8,4
 
-movies = pd.read_csv('C:\Users\Yulia\Desktop\My Data Science\Python\Movie-Ratings.csv')
+movies = pd.read_csv('MovieRatings/Movie-Ratings.csv')
 movies.head()
 
 movies.columns = ['Film', 'Genre', 'CriticsRating', 'AudienceRating', \
